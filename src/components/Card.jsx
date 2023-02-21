@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-// import { FaCalendar, FaBiPhoneCall, FaPhoneAlt } from "react-icons/fa";
+import { FaCalendar, FaBiPhoneCall, FaPhoneAlt } from "react-icons/fa";
 import "../index.css";
 // https://jsonplaceholder.typicode.com/posts?_limit=8
 
@@ -67,7 +67,7 @@ const Card = () => {
                   {/* https://icons8.com/icon/96298/call-male */}
                   <p>{ele.body}</p>
                   <button className="button-3 to-right " role="button">
-                    Call Now
+                    Call Now <FaPhoneAlt />
                   </button>
                 </div>
               </div>
